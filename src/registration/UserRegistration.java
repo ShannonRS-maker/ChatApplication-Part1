@@ -1,5 +1,8 @@
 package registration;
 
+//Intial setup
+//Adding validation logic
+//User registration storage
 /**
  * Handles user registration storage and retrieval
  */
