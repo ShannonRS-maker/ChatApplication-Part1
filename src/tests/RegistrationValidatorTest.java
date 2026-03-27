@@ -1,5 +1,7 @@
 package tests;
 
+// Comprehensive unit tests for registration validation
+
 import registration.RegistrationValidator;
 import org.junit.Before;
 import org.junit.Test;
