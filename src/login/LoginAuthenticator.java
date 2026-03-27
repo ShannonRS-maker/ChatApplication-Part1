@@ -1,5 +1,7 @@
 package login;
 
+// Handles user authentication and login verification
+
 /**
  * Handles user login authentication with appropriate decision structure
  */
