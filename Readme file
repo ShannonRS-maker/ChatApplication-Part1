@@ -1,0 +1,31 @@
+ Chat Application
+
+A simple Java console application designed for secure user registration and login.
+
+ Features
+Registration:Validates username, password, and phone number formats.
+Login: Authenticates users by checking entered credentials against stored data.
+Testing: Includes JUnit tests to ensure all validation logic works correctly.
+
+Validation Rules
+Username: Maximum 5 characters and must include an underscore ("_").
+Password: Minimum 8 characters, including uppercase, lowercase, a digit, and a special character.
+Phone:Accepts 10 digits (`1234567890`) or dashed format (`123-456-7890`).
+
+ Project Structure
+ChatApplication.java: The main entry point for the console UI.
+LoginAuthenticator.java: Handles the logic for verifying login attempts.
+UserRegistration.java: Manages user data and calls the validator.
+RegistrationValidator.java: Contains the specific logic (RegEx) for data requirements.
+test Packages: Contains "LoginAuthenticatorTest" and "RegistrationValidatorTest" for quality assurance.
+
+Setup
+1. Open the project in NetBeans.
+2. Ensure "JUnit 4.13.2" is added to your library path.
+3. Run `ChatApplication.java` to start the program.
+4. To run tests, right-click the project and select Test.
+
+ Technologies
+Java SDK 25
+JUnit 4 (Testing)
+NetBeans IDE
