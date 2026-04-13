@@ -1,4 +1,4 @@
-package tests;
+
 
 // Comprehensive unit tests for registration validation
 
@@ -25,7 +25,7 @@ public class RegistrationValidatorTest {
     @Test
     public void testValidUsername() {
         assertTrue("Valid username should pass", 
-                   validator.validateUsername("user_1"));
+                   validator.validateUsername("us_1"));
     }
     
     @Test

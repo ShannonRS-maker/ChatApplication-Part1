@@ -1,4 +1,4 @@
-package tests;
+
 
 import login.LoginAuthenticator;
 import org.junit.Before;
